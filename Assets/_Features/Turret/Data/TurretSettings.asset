@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a684441d51d138b4088dd5975323af8a, type: 3}
+  m_Name: TurretSettings
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 0.12
+  turnSpeed: 230
+  aimSmoothTime: 0.075
+  barrelFollow: 10
+  minPitch: -18
+  maxPitch: 48
+  aimDistance: 90
+  cameraOffset: {x: 1.5, y: 1, z: -4.2}
+  reloadTime: 0.5
+  projectileSpeed: 50
+  projectileLifetime: 6.5
+  flightStraightTime: 0.32
+  projectileDrag: 0.32
+  projectileGravity: 1.1
+  impactForce: 18
+  impactRadius: 3.2
+  blockMass: 1
+  readyColor: {r: 1, g: 0.94, b: 0.6, a: 1}
+  reloadColor: {r: 0.47, g: 0.56, b: 0.6, a: 1}
+  recoilDistance: 0.44
+  shakeStrength: 0.045
+  shotClip: {fileID: 8300000, guid: 8b197b84b3e4da94c9de580714964a87, type: 3}
+  impactClip: {fileID: 8300000, guid: c57daf12b9da7ff47a2ab7fa27a4fc33, type: 3}
+  blockClips:
+  - {fileID: 8300000, guid: 25de53a803402af45b024c1161fd90f1, type: 3}
+  - {fileID: 8300000, guid: f0121974dbab83f4bb593cc95df81c0b, type: 3}
+  - {fileID: 8300000, guid: daa31ff5697771a408f209f0597951de, type: 3}
+  - {fileID: 8300000, guid: 3067c668e66ba0e45830e2df56983f7f, type: 3}
+  shotVolume: 0.6
+  impactVolume: 0.65
+  blockSoundThreshold: 1.5
+  blockSoundCooldown: 0.12
+  blockSoundVolume: 0.35
+  minSoundPitch: 0.9
+  maxSoundPitch: 1.1
